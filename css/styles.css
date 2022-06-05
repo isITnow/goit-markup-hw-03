@@ -215,8 +215,8 @@ ul {
   padding-top: 0;
 }
 
-.section .subject-heading,
-.section .team-heading {
+.section .subject-title,
+.section .team-title {
   margin-bottom: 50px;
 
   color: var(--title-text-color);
