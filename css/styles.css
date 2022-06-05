@@ -40,8 +40,7 @@ ul {
   list-style: none;
 }
 
-.section,
-.section-portfolio {
+.section {
   padding: 94px 0;
 }
 
@@ -141,7 +140,7 @@ ul {
   text-align: center;
 }
 
-.section .headline {
+.hero .headline {
   margin-bottom: 30px;
 
   color: var(--totall-white);
@@ -216,7 +215,8 @@ ul {
   padding-top: 0;
 }
 
-.section .subject-heading {
+.section .subject-heading,
+.section .team-heading {
   margin-bottom: 50px;
 
   color: var(--title-text-color);
@@ -239,14 +239,6 @@ ul {
 
 .team-list {
   display: flex;
-}
-
-.section .team-heading {
-  color: var(--title-text-color);
-  margin-bottom: 50px;
-  font-size: 36px;
-  line-height: 1.17;
-  text-align: center;
 }
 
 .team-list .item {
