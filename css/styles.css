@@ -22,9 +22,8 @@ h1,
 h2,
 h3,
 h4,
-h5,
-h6 {
-  margin: 0;
+{
+margin: 0;
 }
 
 p {
@@ -136,6 +135,8 @@ ul {
 /* шапка */
 
 .section.hero {
+  padding-top: 200px;
+  padding-bottom: 200px;
   background-color: var(--background-color);
   text-align: center;
 }
@@ -230,7 +231,6 @@ ul {
   justify-content: space-between;
 }
 
-
 /* наша команда */
 
 .section.team {
@@ -250,8 +250,9 @@ ul {
   margin-right: 0;
 }
 
-.team-list .team-pic {
-  margin-bottom: 30px;
+.team-info {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .team-list .team-name {
@@ -265,8 +266,6 @@ ul {
 }
 
 .team-list .team-desc {
-  margin-bottom: 30px;
-
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
@@ -275,12 +274,9 @@ ul {
 /* подвал */
 
 .footer {
-  background-color: var(--background-color);
-}
-
-.footer .container {
   padding-top: 60px;
   padding-bottom: 60px;
+  background-color: var(--background-color);
 }
 
 .footer .adress-list {
@@ -324,7 +320,6 @@ ul {
 }
 
 .filter .button {
-  min-width: 73px;
   padding: 6px 22px;
 
   color: var(--title-text-color);
@@ -361,7 +356,6 @@ ul {
   width: calc((100% - 60px) / 3);
   margin-right: 30px;
   margin-bottom: 30px;
-  border-bottom: 1px solid var(--project-border);
 }
 
 .project .project-item:nth-child(3n) {
@@ -372,27 +366,25 @@ ul {
   margin-bottom: 0px;
 }
 
+.project-info {
+  padding: 20px 24px;
 
-.project-img {
-  margin-bottom: 20px;
+  border-right: 1px solid var(--project-border);
+  border-left: 1px solid var(--project-border);
+  border-bottom: 1px solid var(--project-border);
 }
 
 .project .project-title {
   margin-bottom: 4px;
-  margin-left: 24px;
 
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-
 }
 
 .project .project-desc {
-  margin-bottom: 20px;
-  margin-left: 24px;
-
   color: var(--primery-tect-color);
   font-size: 16px;
   line-height: 1.88;
