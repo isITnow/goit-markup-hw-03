@@ -21,10 +21,10 @@ body {
 h1,
 h2,
 h3,
-h4,
-{
-margin: 0;
+h4 {
+  margin: 0;
 }
+
 
 p {
   margin: 0;
@@ -244,6 +244,11 @@ ul {
 .team-list .item {
   width: calc((100% - 90px) / 4);
   margin-right: 30px;
+}
+
+.team-pic,
+.project-img {
+  display: block;
 }
 
 .team-list .item:last-child {
